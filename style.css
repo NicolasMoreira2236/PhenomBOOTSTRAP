@@ -4,8 +4,14 @@
     height: 48%;
     margin-bottom: 4rem;
     margin-left: 26%;
-    
 }
+#carouselExampleSlidesOnly{
+    width: 50%;
+    height: 70%;
+    margin-left: 26%;
+}   
+    
+
 #navbarNav{
     padding-right: 2rem;
 }
