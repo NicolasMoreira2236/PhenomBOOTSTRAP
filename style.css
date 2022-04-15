@@ -60,20 +60,23 @@ li:not(.nav-item1){
 #circulos img{
     width: 4rem;
     padding-left: 2REM;}
-    
+
 #texto1nos{
+    font-size: 2rem;
     background-image: linear-gradient(to right,#f3ff6d, #fd7b01);
     color: transparent;
     -webkit-background-clip: text;
 
 }
 #texto2nos{
+    font-size: 2rem;
     background-image: linear-gradient(to right,#e9d8a6, #0a5e96);
     color: transparent;
     -webkit-background-clip: text;
 
 }
 #texto3nos{
+    font-size: 2rem;
     background-image: linear-gradient(to right,#0a5e96,#012a3a);
     color: transparent;
     -webkit-background-clip: text; 
