@@ -60,6 +60,7 @@ li:not(.nav-item1){
 #circulos img{
     width: 4rem;
     padding-left: 2REM;}
+    
 #texto1nos{
     background-image: linear-gradient(to right,#f3ff6d, #fd7b01);
     color: transparent;
