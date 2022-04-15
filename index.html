@@ -6,11 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BOOTSTRAP PHENOM TRASLADOS</title>
     <link rel="stylesheet" href="style.css">
+
     <!-- BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">   
 </head>
+
+<!-- NAVBAR -->
+
 <body class="bg-black">
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-gradient py-2 sticky-md-top">  
     <div class="container-fluid" id="navbarr">
@@ -42,8 +45,10 @@
               </div>
             </div>
           </nav>
+
 <!-- TEXTO BODY -->
-          <section class="bg-black pd-5 text-center text-md-star pt-5">
+
+          <section class="bg-black pd-5 text-center text-md-star pt-5 pb-5">
                 <div class="container">
                     <div class="d-sm-flex.align-items-center.justify-content-between">
                         <div>
@@ -57,55 +62,106 @@
                         </div>
                     </div>
                 </div>
-                <hr class="text-light mx-5 text-center py-1 my-5">
+                <p class="placeholder-glow">
+                  <span class="placeholder col-8 bg-warning my-4"></span>
+                </p>
           </section>
- <!-- CAROUSEL -->         
-          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active" id="carrouselimg">
-                <img src="img/chófer-privado.jpg" class="d-block w-100 my-5 border" alt="">
-              </div>
-              <div class="carousel-item">
-                <img src="img/uber phenom.png" class="d-block w-100" alt="">
-              </div>
-              <div class="carousel-item">
-                <img src="img/Cuanto-paga-Uber-GettyImages.jpg" class="d-block w-100" alt="">
-              </div>
-            </div>
-          </div>
-          <div class="text-center my-5 " >
-          <button type="button" class="btn btn-warning pd-3 text-dark fw-bolder">Descarga el app</button>
-          </div>
-          <div class="text-center my-5">
-            <iframe width="400" height="245" src="https://www.youtube.com/embed/Etv-_H8-HSE?start=9" title="YouTube video player" 
-                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+
+ <!-- CAROUSEL -->   
+
+ <div id="carouselExampleCaptions" class="carousel slide border border-3 border-warning rounded-3" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/FACHA_IMG.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block text-warning">
+        <h5 id="com_tec" class="bg-black">COMPLETA TECNOLOGIA</h5>
+        <p class="bg-black mx-3">Disponemos de la ultima tecnologia que hay en el mundo.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/APP_IMG.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block text-warning">
+        <h5 id="com_app" class="bg-black">LA NUEVA APP ARGENTINA</h5>
+        <p id="com_app1" class="bg-black">Una App abocada 100% al compromiso.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/CHOFER_IMG.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block text-warning">
+        <h5 id="com_com" class="bg-black">COMPROMISO & EFECTIVIDAD</h5>
+        <p id="com_com1" class="bg-black">Basta de esperar y esperar mucho tiempo por un viaje.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!-- BOTON DE DESCARGA -->
+
+        <div class="text-center my-5 d-grid col-4 mx-auto " >
+            <button type="button" class="btn btn-warning pd-3 text-black fw-bolder pl-5">DESCARGALA YA!</button>
+        </div>
+
+
+<!-- youtube video -->        
+          
+        <div class="text-center my-5">
+            <iframe class="border border-warning border-5 rounded-3" width="400" height="230" 
+                src="https://www.youtube.com/embed/Etv-_H8-HSE?start=9" title="YouTube video player" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+                gyroscope; picture-in-picture" 
                 allowfullscreen>
             </iframe>
         </div>     
-        <!-- FOOTER -->
+
+<!-- FOOTER -->
+
         <div class="conteiner">
-            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top bg-light px-3">
-                <p class="col-md-4 mb-0 text-muted">© 2022 Company, Inc</p>
-            
-                <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
-                  <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-                </a>
-            
-                <ul class="nav col-md-4 justify-content-end">
-                  <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
-                  <li class="nav-item"><a href="nosotros.html" class="nav-link px-2 text-muted">Nosotros</a></li>
-                  <li class="nav-item"><a href="servicio.html" class="nav-link px-2 text-muted">Servicio</a></li>
-                  <li class="nav-item"><a href="faqs.html" class="nav-link px-2 text-muted">FAQs</a></li>
-                  <li class="nav-item"><a href="contacto.html" class="nav-link px-2 text-muted">Contacto</a></li>
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 bg-dark px-2">        
+                <p class="col-md-2 mb-0 text-white ms-3">© 2022 Phenom, S.R.L</p>
+
+                <div id="circulos" class="nav col-md-4 justify-content-center">
+                <img id="GORJEO" src="img/gorjeo.png" alt="">       
+                <img src="img/instagram.png" alt="">
+                <img src="img/facebook.png" alt="">
+                <img src="img/whatsapp.png" alt=""> 
+                </div>
+
+    
+                <ul class="nav col-md-3  lead fs-6 fw-normal justify-content-end">
+                  <li class="nav-item2">
+                    <a class="text-warning text-decoration-none" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item2">
+                    <a class="text-light text-decoration-none" href="nosotros.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item2">
+                    <a class="text-light text-decoration-none" href="servicio.html">Servicio</a>
+                  </li>
+                  <li class="nav-item2">
+                    <a class="text-light text-decoration-none" href="faqs.html">Faq</a>
+                  </li>
+                  <li class="nav-item2">
+                    <a class="text-light text-decoration-none" href="contacto.html">Contacto</a>
+                  </li>   
                 </ul>
               </footer>
         </div>   
-       <div class="text-center text-light pt-2">
+       <div class="text-center text-warning pt-2" id="reservados">
             <p>Todos los derechos reservados.</p></div>
         
-
-
-
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
     crossorigin="anonymous"></script>

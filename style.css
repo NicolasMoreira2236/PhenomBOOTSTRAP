@@ -1,7 +1,9 @@
-#carouselExampleSlidesOnly{
-    width: 50%;
-    height: 50%;
-    margin-left: 25%;
+
+#carouselExampleCaptions{
+    width: 48%;
+    height: 48%;
+    margin-bottom: 4rem;
+    margin-left: 26%;
     
 }
 #navbarNav{
@@ -22,8 +24,41 @@ li:not(.nav-item1){
 }
 #p_index{
     padding: 0 10rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
     background-image: linear-gradient(to right,#ffba08, #fbb14f);
     color: transparent;
     -webkit-background-clip: text;
 }
+#com_tec{ 
+    margin-left: 5.2em;
+    margin-right: 5.2em;
+}
+#com_app{
+    margin-left: 4.5em;
+    margin-right: 4.5em;
+}
+
+#com_app1{
+    margin-left: 5em;
+    margin-right: 5em;
+}
+#com_com{
+    margin-left: 4em;
+    margin-right: 4em;
+}
+#com_com1{
+    margin-left: 2em;
+    margin-right: 2em;
+}
+#reservados p{
+    margin-bottom: 0.5em;
+}
+
+#circulos{
+    padding-left: 4rem;
+}
+#circulos img{
+    width: 4rem;
+    padding-left: 2REM;}
+
+
