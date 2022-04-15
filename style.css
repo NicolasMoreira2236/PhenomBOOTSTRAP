@@ -14,7 +14,10 @@
 
 }   
     
-
+#ytvideo{
+    padding-bottom: 0;
+    margin-top: 0;
+}
 #navbarNav{
     padding-right: 2rem;
 }
@@ -64,7 +67,7 @@ li:not(.nav-item1){
 }
 
 #circulos{
-    padding-left: 4rem;
+    padding-left: 11rem;
 }
 #circulos img{
     width: 4rem;
