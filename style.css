@@ -2,4 +2,28 @@
     width: 50%;
     height: 50%;
     margin-left: 25%;
+    
+}
+#navbarNav{
+    padding-right: 2rem;
+}
+#navbarr img{
+    width: 7%;
+}
+li:not(.nav-item1){
+    padding-right: 1rem;
+}
+
+#texto_index{
+    font-size: 6rem;
+    background-image: linear-gradient(to right,#ffba08, #c47002);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+#p_index{
+    padding: 0 10rem;
+    font-size: 1.5rem;
+    background-image: linear-gradient(to right,#ffba08, #fbb14f);
+    color: transparent;
+    -webkit-background-clip: text;
 }
