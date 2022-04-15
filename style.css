@@ -90,6 +90,9 @@ li:not(.nav-item1){
     color: transparent;
     -webkit-background-clip: text; 
 }
+#form1{
+    padding: 2rem 30% 2rem 30%;
+}
 
 
 
