@@ -1,101 +1,51 @@
-
-#carouselExampleCaptions{
-    width: 48%;
-    height: 48%;
-    margin-bottom: 4rem;
-    margin-left: 26%;
-}
-#carouselExampleSlidesOnly{
-    width: 50%;
-    height: 70%;
-    margin-left: 26%;
-    margin-top: 4rem;
-    margin-bottom: 6rem;
-
-}   
-    
-#ytvideo{
-    padding-bottom: 0;
-    margin-top: 0;
-}
-#navbarNav{
-    padding-right: 2rem;
-}
-#navbarr img{
-    width: 7%;
-}
-li:not(.nav-item1){
-    padding-right: 1rem;
-}
-
 #texto_index{
-    font-size: 6rem;
+    font-size: 2rem;
     background-image: linear-gradient(to right,#ffba08, #c47002);
     color: transparent;
     -webkit-background-clip: text;
 }
+
 #p_index{
-    padding: 0 10rem;
+    padding:1rem;
     font-size: 2rem;
     background-image: linear-gradient(to right,#ffba08, #fbb14f);
     color: transparent;
     -webkit-background-clip: text;
 }
-#com_tec{ 
-    margin-left: 5.2em;
-    margin-right: 5.2em;
-}
-#com_app{
-    margin-left: 4.5em;
-    margin-right: 4.5em;
-}
-
-#com_app1{
-    margin-left: 5em;
-    margin-right: 5em;
-}
-#com_com{
-    margin-left: 4em;
-    margin-right: 4em;
-}
-#com_com1{
-    margin-left: 2em;
-    margin-right: 2em;
-}
-#reservados p{
-    margin-bottom: 0.5em;
-}
-
-#circulos{
-    padding-left: 11rem;
-}
-#circulos img{
-    width: 4rem;
-    padding-left: 2REM;}
-
-#texto1nos{
-    font-size: 2rem;
-    background-image: linear-gradient(to right,#f3ff6d, #fd7b01);
-    color: transparent;
-    -webkit-background-clip: text;
-
-}
-#texto2nos{
-    font-size: 2rem;
-    background-image: linear-gradient(to right,#e9d8a6, #0a5e96);
-    color: transparent;
-    -webkit-background-clip: text;
-
-}
-#texto3nos{
-    font-size: 2rem;
-    background-image: linear-gradient(to right,#0a5e96,#012a3a);
-    color: transparent;
-    -webkit-background-clip: text; 
-}
-#form1{
-    padding: 2rem 30% 2rem 30%;
+footer nav img{
+    height: 3rem;
+   
+    
 }
 
 
 
+@media screen and (min-width: 768px) {
+    #texto_index{
+        font-size: 3rem;
+               
+    }  
+    #p_index{
+        font-size: 1rem;
+    }          
+    
+    #com_tec{ 
+        margin-left: 5.2em;
+        margin-right: 5.2em;
+    }
+    #com_app{
+        margin-left: 4.5em;
+        margin-right: 4.5em;
+    }
+    
+    #com_app1{
+        margin-left: 5em;
+        margin-right: 5em;
+    }
+    #com_com{
+        margin-left: 4em;
+        margin-right: 4em;
+    }
+    #com_com1{
+        margin-left: 2em;
+        margin-right: 2em;}}
