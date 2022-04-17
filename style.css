@@ -1,3 +1,6 @@
+body{
+    Overflow-x: hidden
+}
 #texto_index{
     font-size: 2rem;
     background-image: linear-gradient(to right,#ffba08, #c47002);
