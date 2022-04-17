@@ -99,6 +99,28 @@ footer img{
         margin-left: 25%;
         }
 
+        #BOTONDESCARGA:hover {
+            width: 50%;
+            transition: width 2s;}
+    
+        #BOTONDESCARGA{
+                width: 30%;
+                transition: width 2s;
+    
+        }
+        main img{
+            width: 40%;
+            transition: width 2s;
+    
+        }
+    
+        main img:hover{
+            width: 50%;
+            transition: width 2s;
+    
+        }
+    
+
     
     }
 
@@ -113,4 +135,6 @@ footer img{
         width: 30%;
         margin-left: 35.5%;
     }
-    }
+
+    
+}
