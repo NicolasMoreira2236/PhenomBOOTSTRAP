@@ -17,6 +17,30 @@ footer img{
    
     
 }
+
+#texto1nos{
+    background-image: linear-gradient(to right,#ffba08, #fbb14f);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+#texto2nos{
+    background-image: linear-gradient(to right,#ffba08, #219ebc);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+#texto3nos{
+    background-image: linear-gradient(to right,#219ebc, #014556);
+    color: transparent;
+    -webkit-background-clip: text; 
+}
+
+#form1{
+    width: 60%;
+    margin-left: 20%;
+}
+
+
    
     
 
@@ -49,6 +73,11 @@ footer img{
     #com_com1{
         margin-left: 2em;
         margin-right: 2em;}
+    
+    #form1{
+        width: 50%;
+        margin-left: 25%;
+        }
 
     
     }
@@ -60,4 +89,8 @@ footer img{
           margin-left: 19.5%;
           
       }  
+      #form1{
+        width: 30%;
+        margin-left: 35.5%;
+    }
     }
