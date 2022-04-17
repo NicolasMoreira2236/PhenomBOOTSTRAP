@@ -1,5 +1,5 @@
 body{
-    Overflow-x: hidden
+    Overflow-x: hiddengit
 }
 #texto_index{
     font-size: 2rem;
@@ -48,6 +48,23 @@ footer img{
     
 
 @media screen and (min-width: 768px) {
+
+    @keyframes from-left {
+        0%{
+           opacity: 0;
+           transform: translateX(-150px); 
+        }
+        100%{
+            opacity: 1;
+            transform: translateX(0px);
+    }
+    }
+    header img{
+        animation: from-left 1.5s ease;
+    }
+    header a{
+        animation: from-left 1.5s ease;}
+
     #texto_index{
         font-size: 4rem;
                
