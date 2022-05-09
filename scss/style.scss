@@ -1,4 +1,28 @@
-@import "globales"; 
+@import "globales";
+@import "colores-texto-nos";
+@import "getmap";
+@import "mixin";
+
+
+#texto1nos{
+    @include textonos;
+}
+
+#texto2nos{
+    background-image: $gradiante-2;
+    color: transparent;
+    -webkit-background-clip: text;
+}
+#texto3nos{
+    background-image: $gradiante-3;
+    color: transparent;
+    -webkit-background-clip: text; }
+
+#titulo-serv{
+    color: $gradiante;
+}
+
+
 
 main{
     h1{
@@ -19,22 +43,8 @@ main{
 footer img{
     height: 2rem;}
 
-    #texto1nos{
-        background-image: linear-gradient(to right,#ffba08, #fbb14f);
-        color: transparent;
-        -webkit-background-clip: text;
-    }
-    
-    #texto2nos{
-        background-image: linear-gradient(to right,#ffba08, #219ebc);
-        color: transparent;
-        -webkit-background-clip: text;
-    }
-    #texto3nos{
-        background-image: linear-gradient(to right,#219ebc, #014556);
-        color: transparent;
-        -webkit-background-clip: text; }
 
+   
         #form1{
             width: 60%;
             margin-left: 20%;

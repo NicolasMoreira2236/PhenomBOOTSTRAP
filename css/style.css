@@ -2,6 +2,28 @@ body {
   Overflow-x: hidden;
 }
 
+#texto1nos {
+  background-image: #ffba08;
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
+#texto2nos {
+  background-image: #4813c3;
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
+#texto3nos {
+  background-image: #2f0d7f;
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
+#titulo-serv {
+  color: #ffba08;
+}
+
 main h1 {
   font-size: 2rem;
   background-image: linear-gradient(to right, #ffba08, #c47002);
@@ -18,24 +40,6 @@ main p {
 
 footer img {
   height: 2rem;
-}
-
-#texto1nos {
-  background-image: linear-gradient(to right, #ffba08, #fbb14f);
-  color: transparent;
-  -webkit-background-clip: text;
-}
-
-#texto2nos {
-  background-image: linear-gradient(to right, #ffba08, #219ebc);
-  color: transparent;
-  -webkit-background-clip: text;
-}
-
-#texto3nos {
-  background-image: linear-gradient(to right, #219ebc, #014556);
-  color: transparent;
-  -webkit-background-clip: text;
 }
 
 #form1 {
